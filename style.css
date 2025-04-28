@@ -1,0 +1,55 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before,*:after{
+    box-sizing: inherit;
+}
+#container{
+    margin: 0;
+    background-color:#141414;
+    height: 410px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+body{
+    padding: 20px;
+}
+img{
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.center, .btn{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3, p{
+    text-align: center;
+    margin: 0;
+}
+h3{
+    color: white;
+}
+#from{
+    color: #c5f82a;
+}
+#who{
+    color: #d4d6d9;
+    padding-top: 10px;
+}
+.btn{
+    margin-top: 10px;
+    width: 80%;
+    color: white;
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+    padding: 9px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #c5f82a;
+    transform: scale(1.02);
+}
